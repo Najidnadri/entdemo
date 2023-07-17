@@ -1,0 +1,8 @@
+type Mutation {
+    CreateProduct(input: CreateProductInput!): Product!
+    # CreateManyProduct(inputs: [CreateProductInput!]): [Product]!
+    # UpdateProduct(where: ProductWhereInput!, input: UpdateProductInput!): Product!
+    # DeleteProduct(where: ProductWhereInput!): Boolean
+    # UpdateManyProduct(where: ProductWhereInput!, input: UpdateProductInput!): Int
+    # DeleteManyProduct(where: ProductWhereInput!): Int
+}
